@@ -1,0 +1,30 @@
+.green {
+    background-color: greenyellow;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.turkw {
+    background-color: aquamarine;
+}
+
+.purple {
+    background-color: plum;
+}
+
+.mint {
+    background-color: rgb(123, 201, 206);
+}
+
+.orange {
+    background-color: orange;
+}
+
+.container  {
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-rows: repeat(3, 200px);
+}
