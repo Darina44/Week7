@@ -1,7 +1,7 @@
 .text_cursiv {
     font-family: 'Yellowtail', sans-serif;
     font-style: normal;
-    font-size: 2em;
+    font-size: 3vw;
     color: #7EB693;
 }
 
@@ -9,7 +9,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 4em;
+    font-size: 6vw;
     color: #274C5B;
 }
 
@@ -17,14 +17,14 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 3em;
+    font-size: 4.5vw;
     color: #274C5B;
 }
 
 .text_basic {
     font-family: 'Open Sans', sans-serif;
     font-style: normal;
-    font-size: 0.9em;
+    font-size: 1.35vw;
     color: #525C60;
     line-height: 32px;
     letter-spacing: 0.36px;
@@ -33,7 +33,7 @@
 .text_basich {
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-size: 1.1em;
+    font-size: 1.65vw;
     color: #274C5B;
 }
 
@@ -41,7 +41,7 @@
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 700;
-    font-size: 1.4em;
+    font-size: 2.1vw;
     color: #274C5B;
 }
 
@@ -59,7 +59,7 @@ body {
     grid-template-rows: 1fr;
     grid-template-columns: 20% 1fr 15%;
     font-family: 'Roboto', sans-serif;
-    font-size: 1em;
+    font-size: 1.5vw;
     padding: 2%;
     justify-items: stretch;
     align-items: center;
@@ -141,10 +141,13 @@ margin: 2% 2%;
     background-image: url(../images/imagepage3.png);
     background-repeat: no-repeat;
     width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 .thirdblock__padding{
-    padding-left: 50%;
+    grid-area: 1/2/2/3;
+    width: 100%;
 }
 
 .thirdblock__text{
