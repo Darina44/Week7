@@ -213,3 +213,44 @@ margin: 2% 2%;
     border-top: 1px solid #D5D5D5; 
     padding: 15px;
 }
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    
+    .firstblock {
+        grid-area: fb;
+        background-image: url(../images/backcround1.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        width: 100%;
+        padding: 10% 0 0 0;
+    }
+    
+    .secondblog__image1 {
+        grid-area: sb1;
+        width: 90%;
+        margin: 10% 0 0 2%;
+    }
+    .secondblog__image2 {
+        grid-area: sb2;
+        width: 90%;
+        margin: 10% 0 0 2%;
+    }
+
+    .thirdblock {
+        grid-area: thb ;
+        background-image: none;
+        width: 100%;
+        display: block;
+        margin-top: -8%;
+        margin-bottom: -10%;
+    }
+    
+    .thirdblock__padding{
+        width: 100%;
+        padding-left: 15%;
+    }
+
+    .thirdblock__padding>.text_bold {
+        margin: 0;
+    }
+}
